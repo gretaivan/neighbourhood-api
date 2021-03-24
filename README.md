@@ -50,3 +50,7 @@ The application uses REST architecture. It uses common [HTTP response](https://c
 * Fork and clone the repo  
 * cd into the cloned repo 
 * in terminal ```npm install```
+
+
+###### Future imporvements: 
++ table for paths
