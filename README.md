@@ -1,4 +1,5 @@
 # NEIGHBOURHOOD
+[API documentation](https://neighbourhoodapi.docs.apiary.io/)
 
 Neighbourhood is a simple API allowing consumers to:
 * Store information about the household members, houses and addresses; 
@@ -10,7 +11,6 @@ The application uses REST architecture. It uses common [HTTP response](https://c
 
 ## API BLUEPRINT
 
-+ [API documentation](https://neighbourhoodapi.docs.apiary.io/)
 + [Raw API Blueprint](https://github.com/gretaivan/neighbourhood-api/blob/main/apiary.apib)
 + [Mock Server](https://app.apiary.io/neighbourhoodapi/editor)
 
