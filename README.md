@@ -73,7 +73,14 @@ The application uses REST architecture. It uses common [HTTP response](https://c
                 }
             }
             
+## HTTP REQUEST TYPES
+```GET``` - to get the data resources
+```POST``` - to create a new data resource
 
+## HTTP RESPONSE CODES IN API
+
+```200``` ```OK```
+```201``` ```Created```
 
 ## INSTALLATION AND USAGE for developers
  
