@@ -25,18 +25,19 @@ The application uses REST architecture. It uses common [HTTP response](https://c
 + ```200``` ```OK```
 + ```201``` ```Created```
 
-### Home Route: /
+### Routes: 
 
-#### Connection Successful - request type GET 
+#### ```/```  - Connection Successful
+##### request type GET 
 + Response 200 (application/json)
     
-### House Collection route: /houses
+#### ```/houses``` - House Collection
 
-#### List All Houses request type GET 
+##### List All Houses - request type GET 
 
 + Response 200 (application/json)
             
-#### Create a new House - request type POST 
+##### Create a new House - request type POST 
 
 + Request (application/json)
 
