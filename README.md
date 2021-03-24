@@ -11,7 +11,7 @@ The application uses REST architecture. It uses common [HTTP response](https://c
 ## API BLUEPRINT
 
 + [Raw API Blueprint](https://github.com/gretaivan/neighbourhood-api/blob/main/apiary.apib)
-+ 
++ [Mock Server](https://app.apiary.io/neighbourhoodapi/editor)
 
 ## USAGE 
 
@@ -73,13 +73,6 @@ The application uses REST architecture. It uses common [HTTP response](https://c
                 }
             }
             
-
-
-
-
-## TECHNOLOGIES
-
-## 
 
 
 ## INSTALLATION AND USAGE for developers
