@@ -16,27 +16,27 @@ The application uses REST architecture. It uses common [HTTP response](https://c
 
 ## USAGE - A QUICK SUMMARY
 
-## HTTP REQUEST TYPES
+### HTTP REQUEST TYPES
 + ```GET``` - to get the data resources
 + ```POST``` - to create a new data resource
 
-## HTTP RESPONSE CODES IN API
+### HTTP RESPONSE CODES IN API
 
 + ```200``` ```OK```
 + ```201``` ```Created```
 
-## Home Route: /
+### Home Route: /
 
-### Connection Successful - request type GET 
+#### Connection Successful - request type GET 
 + Response 200 (application/json)
     
-## House Collection route: /houses
+### House Collection route: /houses
 
-### List All Houses request type GET 
+#### List All Houses request type GET 
 
 + Response 200 (application/json)
             
-### Create a new House - request type POST 
+#### Create a new House - request type POST 
 
 + Request (application/json)
 
