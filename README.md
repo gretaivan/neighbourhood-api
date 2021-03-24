@@ -53,4 +53,4 @@ The application uses REST architecture. It uses common [HTTP response](https://c
 
 
 ###### Future imporvements: 
-###### + table for paths
+###### [ ] table for paths
