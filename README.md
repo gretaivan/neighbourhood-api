@@ -1,5 +1,5 @@
 # NEIGHBOURHOOD
-[API documentation](https://neighbourhoodapi.docs.apiary.io/)
+## [API documentation](https://neighbourhoodapi.docs.apiary.io/)
 
 Neighbourhood is a simple API allowing consumers to:
 * Store information about the household members, houses and addresses; 
