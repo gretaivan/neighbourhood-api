@@ -10,69 +10,12 @@ The application uses REST architecture. It uses common [HTTP response](https://c
 
 ## API BLUEPRINT
 
++ [API documentation](https://neighbourhoodapi.docs.apiary.io/)
 + [Raw API Blueprint](https://github.com/gretaivan/neighbourhood-api/blob/main/apiary.apib)
 + [Mock Server](https://app.apiary.io/neighbourhoodapi/editor)
 
-## USAGE 
+## USAGE QUICK SUMMARY
 
-## Home Route [/]
-
-### Connection Successful [GET]
-
-+ Response 200 (text/plain)
-
-        You successfully connected to the Neighbourhood API
-    
-## House Collection [/houses]
-
-### List All Houses [GET]
-
-+ Response 200 (application/json)
-            
-            [
-                 {
-                    "id:" 2,
-                    "address": "London",
-                    "owner": "Harry Potter"
-                }
-            ]
-    
-
-### Create a new House [POST]
-
-+ Request (application/json)
-
-        {
-            "address": "London",
-            "owner": "Harry Potter"
-        }
-
-+ Response 201 (application/json)
-
-    + Headers
-
-            Location: /houses/2
-
-    + Body
-            
-            {
-                "id:" 2,
-                "address": "London",
-                "owner": "Harry Potter"
-            }
-
-    + Schema
-    
-
-            {
-                "$schema": "http://json-schema.org/draft-04/schema#",
-                "type": "object",
-                "properties": {
-                    "address": "string",
-                    "owner": "string"
-                }
-            }
-            
 ## HTTP REQUEST TYPES
 + ```GET``` - to get the data resources
 + ```POST``` - to create a new data resource
@@ -81,6 +24,24 @@ The application uses REST architecture. It uses common [HTTP response](https://c
 
 + ```200``` ```OK```
 + ```201``` ```Created```
+
+## Home Route: /
+
+### Connection Successful - request type GET 
++ Response 200 (application/json)
+    
+## House Collection route: /houses
+
+### List All Houses request type GET 
+
++ Response 200 (application/json)
+            
+### Create a new House - request type POST 
+
++ Request (application/json)
+
++ Response 201 (application/json)
+         
 
 ## INSTALLATION AND USAGE for developers
  
